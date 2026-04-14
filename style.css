@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+:root {
+    --cor-topo: #000;
+    --cor-main: #111;
+    --cor-texto: white;
+    --botao-whatts: #25D366;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color:var(--cor-texto);
+   
+    padding-bottom: 2rem;
+}
+
+header {
+    padding: 30px 20px;
+    background: var(--cor-topo);
+    position: sticky;
+    top: 0px;
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-size: 2.5rem;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height:200vh;
+    background-color: var(--cor-main);
+     text-align: center;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    min-height: auto;
+
+
+}
+
+.card {
+    background: #222;
+    padding: 15px;
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 8px;
+    max-width: 300px;
+
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.btn-whatsapp-fixo1 {
+    background-color: var(--botao-whatts);
+    width: 80%;
+    max-width: 400px;
+    color: var(--cor-texto);
+    border: none;
+    padding: 15px;
+    font-size: 1.4rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-whatsapp-fixo2 {
+    display: inline-flex;
+    justify-content: center;
+    width: 30%;
+    max-width: 300px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--botao-whatts);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: all 2s ease;
+}
+
+@media(width-max: 600px) {
+ .btn-whatsapp-fixo2{
+    
+ }
+
+
+}
