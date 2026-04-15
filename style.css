@@ -50,7 +50,6 @@ h1 {
     padding: 20px;
     min-height: auto;
 
-
 }
 
 .card {
@@ -60,7 +59,6 @@ h1 {
     margin: 10px auto;
     border-radius: 8px;
     max-width: 300px;
-
 }
 
 .cta {
@@ -104,10 +102,9 @@ button:hover {
     transition: all 2s ease;
 }
 
-@media(width-max: 600px) {
+@media(max-width: 600px) {
  .btn-whatsapp-fixo2{
-    
+    display: none;
  }
-
 
 }
