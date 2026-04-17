@@ -37,10 +37,11 @@ h1 {
 .principal{
     display: flex;
     flex-direction: column;
+    padding-bottom: 2rem
     gap: 10px;
     min-height:100vh;
     background-color: var(--cor-main);
-     text-align: center;
+    text-align: center;
 }
 
 .servicos {
