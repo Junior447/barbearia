@@ -1,7 +1,7 @@
 
-const btn = document.querySelectorAll(',btn-whatsapp')
+const btn = document.querySelectorAll('.btn-whatsapp')
 const servicos = document.querySelector('.servicos')
-const card = document.querySelectorAll('card')
+const card = document.querySelectorAll('.card')
 console.log(card)
 console.log(servicos)
 
