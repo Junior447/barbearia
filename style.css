@@ -107,7 +107,7 @@ h1 {
 }
 
 @media(max-width: 600px) {
- .btn-whatsapp-fixo2{
+ [data-servico = whatsApp-fixo]{
     display: none;
  }
 
