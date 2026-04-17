@@ -57,8 +57,10 @@ h1 {
     padding: 15px;
     width: 90%;
     margin: 10px auto;
-    border-radius: 8px;
+    border-radius: 1px;
     max-width: 300px;
+    cursor: pointer;
+    color: var(--cor-texto);
 }
 
 .cta {
@@ -67,9 +69,10 @@ h1 {
     align-items: center;
     gap: 30px;
     margin-top: 30px;
+    
 }
 
-.btn-whatsapp-fixo1 {
+[data-servico = whatsApp] {
     background-color: var(--botao-whatts);
     width: 80%;
     max-width: 400px;
@@ -81,7 +84,7 @@ h1 {
     cursor: pointer;
 }
 
-.btn-whatsapp-fixo2 {
+[data-servico = whatsApp-fixo] {
     display: inline-flex;
     justify-content: center;
     width: 30%;
@@ -97,9 +100,10 @@ h1 {
     text-decoration: none;
 }
 
-button:hover {
+.btn-whatsapp:hover {
     transform: scale(1.1);
     transition: all 2s ease;
+    
 }
 
 @media(max-width: 600px) {

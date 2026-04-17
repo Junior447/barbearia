@@ -1,6 +1,8 @@
 
-const btn = document.querySelectorAll('button')
+const btn = document.querySelectorAll(',btn-whatsapp')
 const servicos = document.querySelector('.servicos')
+const card = document.querySelectorAll('card')
+console.log(card)
 console.log(servicos)
 
 const agendar = (btns) => {
